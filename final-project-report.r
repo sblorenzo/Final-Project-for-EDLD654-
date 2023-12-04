@@ -1,79 +1,247 @@
 {
  "cells": [
   {
-   "cell_type": "code",
-   "execution_count": 1,
-   "id": "3eaaaa89",
+   "cell_type": "markdown",
+   "id": "2be14eca",
    "metadata": {
-    "_execution_state": "idle",
-    "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
-    "execution": {
-     "iopub.execute_input": "2023-12-04T17:01:37.519435Z",
-     "iopub.status.busy": "2023-12-04T17:01:37.517349Z",
-     "iopub.status.idle": "2023-12-04T17:01:38.538978Z",
-     "shell.execute_reply": "2023-12-04T17:01:38.537323Z"
-    },
     "papermill": {
-     "duration": 1.028145,
-     "end_time": "2023-12-04T17:01:38.541164",
+     "duration": 0.00346,
+     "end_time": "2023-12-04T21:11:26.782513",
      "exception": false,
-     "start_time": "2023-12-04T17:01:37.513019",
+     "start_time": "2023-12-04T21:11:26.779053",
      "status": "completed"
     },
     "tags": []
    },
-   "outputs": [
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "── \u001b[1mAttaching core tidyverse packages\u001b[22m ──────────────────────── tidyverse 2.0.0 ──\n",
-      "\u001b[32m✔\u001b[39m \u001b[34mdplyr    \u001b[39m 1.1.3     \u001b[32m✔\u001b[39m \u001b[34mreadr    \u001b[39m 2.1.4\n",
-      "\u001b[32m✔\u001b[39m \u001b[34mforcats  \u001b[39m 1.0.0     \u001b[32m✔\u001b[39m \u001b[34mstringr  \u001b[39m 1.5.0\n",
-      "\u001b[32m✔\u001b[39m \u001b[34mggplot2  \u001b[39m 3.4.4     \u001b[32m✔\u001b[39m \u001b[34mtibble   \u001b[39m 3.2.1\n",
-      "\u001b[32m✔\u001b[39m \u001b[34mlubridate\u001b[39m 1.9.3     \u001b[32m✔\u001b[39m \u001b[34mtidyr    \u001b[39m 1.3.0\n",
-      "\u001b[32m✔\u001b[39m \u001b[34mpurrr    \u001b[39m 1.0.2     \n",
-      "── \u001b[1mConflicts\u001b[22m ────────────────────────────────────────── tidyverse_conflicts() ──\n",
-      "\u001b[31m✖\u001b[39m \u001b[34mdplyr\u001b[39m::\u001b[32mfilter()\u001b[39m masks \u001b[34mstats\u001b[39m::filter()\n",
-      "\u001b[31m✖\u001b[39m \u001b[34mdplyr\u001b[39m::\u001b[32mlag()\u001b[39m    masks \u001b[34mstats\u001b[39m::lag()\n",
-      "\u001b[36mℹ\u001b[39m Use the conflicted package (\u001b[3m\u001b[34m<http://conflicted.r-lib.org/>\u001b[39m\u001b[23m) to force all conflicts to become errors\n"
-     ]
-    },
-    {
-     "data": {
-      "text/html": [],
-      "text/latex": [],
-      "text/markdown": [],
-      "text/plain": [
-       "character(0)"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    }
-   ],
    "source": [
-    "# This R environment comes with many helpful analytics packages installed\n",
-    "# It is defined by the kaggle/rstats Docker image: https://github.com/kaggle/docker-rstats\n",
-    "# For example, here's a helpful package to load\n",
+    "<div align=\"center\">\n",
     "\n",
-    "library(tidyverse) # metapackage of all tidyverse packages\n",
+    "#     Predicting Real-Life Disasters on Twitter Through Data Modeling"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "79c3a9cd",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002771,
+     "end_time": "2023-12-04T21:11:26.788357",
+     "exception": false,
+     "start_time": "2023-12-04T21:11:26.785586",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "<div align=\"center\">Samantha Lorenzo\n",
+    "<div align=\"center\">EDLD654 Machine Learning for Educational Data Science\n",
+    "<div align=\"center\">Final Project Report\n",
+    "<div align=\"center\">December 6, 2023"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a91c951b",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002737,
+     "end_time": "2023-12-04T21:11:26.793875",
+     "exception": false,
+     "start_time": "2023-12-04T21:11:26.791138",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**Reproducibility Note:** Please use this [link](https://github.com/sblorenzo/Final-Project-for-EDLD654-) to view the GitHub repopsitory. All codes used for this report can be found in the **r-code.r** file within the **R** branch. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "36b0affa",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002725,
+     "end_time": "2023-12-04T21:11:26.799374",
+     "exception": false,
+     "start_time": "2023-12-04T21:11:26.796649",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**Research Problem**\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1c60f2fd",
+   "metadata": {
+    "papermill": {
+     "duration": 0.00273,
+     "end_time": "2023-12-04T21:11:26.804931",
+     "exception": false,
+     "start_time": "2023-12-04T21:11:26.802201",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**Description of Data**\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3eea4db9",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002731,
+     "end_time": "2023-12-04T21:11:26.810426",
+     "exception": false,
+     "start_time": "2023-12-04T21:11:26.807695",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**Description of the Models**\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "13931448",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002715,
+     "end_time": "2023-12-04T21:11:26.815884",
+     "exception": false,
+     "start_time": "2023-12-04T21:11:26.813169",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**Data Visualization**\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "20705916",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002784,
+     "end_time": "2023-12-04T21:11:26.821490",
+     "exception": false,
+     "start_time": "2023-12-04T21:11:26.818706",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "***Model 1:***"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d6f7ba90",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002744,
+     "end_time": "2023-12-04T21:11:26.827024",
+     "exception": false,
+     "start_time": "2023-12-04T21:11:26.824280",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "***Model 2:***"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a0c477ae",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002772,
+     "end_time": "2023-12-04T21:11:26.832629",
+     "exception": false,
+     "start_time": "2023-12-04T21:11:26.829857",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "***Model 3:***"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6c5d387e",
+   "metadata": {
+    "papermill": {
+     "duration": 0.00271,
+     "end_time": "2023-12-04T21:11:26.838253",
+     "exception": false,
+     "start_time": "2023-12-04T21:11:26.835543",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**Model Fit**\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f596f5c9",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002793,
+     "end_time": "2023-12-04T21:11:26.843838",
+     "exception": false,
+     "start_time": "2023-12-04T21:11:26.841045",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**Discussion/Conclusion**\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b2bf46be",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002763,
+     "end_time": "2023-12-04T21:11:26.849433",
+     "exception": false,
+     "start_time": "2023-12-04T21:11:26.846670",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**References**\n",
     "\n",
-    "# Input data files are available in the read-only \"../input/\" directory\n",
-    "# For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory\n",
-    "\n",
-    "list.files(path = \"../input\")\n",
-    "\n",
-    "# You can write up to 20GB to the current directory (/kaggle/working/) that gets preserved as output when you create a version using \"Save & Run All\" \n",
-    "# You can also write temporary files to /kaggle/temp/, but they won't be saved outside of the current session"
+    "Addison Howard, devrishi, Phil Culliton, Yufeng Guo. (2019). Natural Language Processing with Disaster Tweets. *Kaggle*. \n",
+    "    https://kaggle.com/competitions/nlp-getting-started.\n",
+    "    "
    ]
   }
  ],
  "metadata": {
   "kaggle": {
-   "accelerator": "none",
+   "accelerator": "gpu",
    "dataSources": [],
-   "isGpuEnabled": false,
+   "isGpuEnabled": true,
    "isInternetEnabled": true,
    "language": "r",
    "sourceType": "notebook"
@@ -93,14 +261,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 4.132519,
-   "end_time": "2023-12-04T17:01:38.662056",
+   "duration": 2.909247,
+   "end_time": "2023-12-04T21:11:26.971883",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-12-04T17:01:34.529537",
+   "start_time": "2023-12-04T21:11:24.062636",
    "version": "2.4.0"
   }
  },
