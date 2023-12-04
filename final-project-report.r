@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "1c9329a5",
+   "id": "a03c339a",
    "metadata": {
     "papermill": {
-     "duration": 0.004347,
-     "end_time": "2023-12-04T23:46:24.618627",
+     "duration": 0.004212,
+     "end_time": "2023-12-04T23:47:49.040816",
      "exception": false,
-     "start_time": "2023-12-04T23:46:24.614280",
+     "start_time": "2023-12-04T23:47:49.036604",
      "status": "completed"
     },
     "tags": []
@@ -16,18 +16,18 @@
    "source": [
     "<div align=\"center\">\n",
     "\n",
-    "#     Predicting Real-Life Disasters on Twitter Through Data Modeling"
+    "#     Predicting Real-Life Disasters on Twitter Through Machine Learning"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "2c905756",
+   "id": "6410d952",
    "metadata": {
     "papermill": {
-     "duration": 0.003304,
-     "end_time": "2023-12-04T23:46:24.625504",
+     "duration": 0.003404,
+     "end_time": "2023-12-04T23:47:49.047756",
      "exception": false,
-     "start_time": "2023-12-04T23:46:24.622200",
+     "start_time": "2023-12-04T23:47:49.044352",
      "status": "completed"
     },
     "tags": []
@@ -41,13 +41,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "f98bb0f2",
+   "id": "de898643",
    "metadata": {
     "papermill": {
-     "duration": 0.00332,
-     "end_time": "2023-12-04T23:46:24.632281",
+     "duration": 0.003369,
+     "end_time": "2023-12-04T23:47:49.054463",
      "exception": false,
-     "start_time": "2023-12-04T23:46:24.628961",
+     "start_time": "2023-12-04T23:47:49.051094",
      "status": "completed"
     },
     "tags": []
@@ -58,13 +58,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a42a2049",
+   "id": "d1e2f005",
    "metadata": {
     "papermill": {
-     "duration": 0.003529,
-     "end_time": "2023-12-04T23:46:24.639190",
+     "duration": 0.003311,
+     "end_time": "2023-12-04T23:47:49.061100",
      "exception": false,
-     "start_time": "2023-12-04T23:46:24.635661",
+     "start_time": "2023-12-04T23:47:49.057789",
      "status": "completed"
     },
     "tags": []
@@ -79,13 +79,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "cf56e868",
+   "id": "9c84eb1a",
    "metadata": {
     "papermill": {
-     "duration": 0.003353,
-     "end_time": "2023-12-04T23:46:24.645891",
+     "duration": 0.003364,
+     "end_time": "2023-12-04T23:47:49.067773",
      "exception": false,
-     "start_time": "2023-12-04T23:46:24.642538",
+     "start_time": "2023-12-04T23:47:49.064409",
      "status": "completed"
     },
     "tags": []
@@ -98,13 +98,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "4a6140e0",
+   "id": "bbf94820",
    "metadata": {
     "papermill": {
-     "duration": 0.003347,
-     "end_time": "2023-12-04T23:46:24.652824",
+     "duration": 0.003294,
+     "end_time": "2023-12-04T23:47:49.074450",
      "exception": false,
-     "start_time": "2023-12-04T23:46:24.649477",
+     "start_time": "2023-12-04T23:47:49.071156",
      "status": "completed"
     },
     "tags": []
@@ -119,13 +119,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ae7e2563",
+   "id": "7bad26ff",
    "metadata": {
     "papermill": {
-     "duration": 0.003623,
-     "end_time": "2023-12-04T23:46:24.659750",
+     "duration": 0.0033,
+     "end_time": "2023-12-04T23:47:49.081071",
      "exception": false,
-     "start_time": "2023-12-04T23:46:24.656127",
+     "start_time": "2023-12-04T23:47:49.077771",
      "status": "completed"
     },
     "tags": []
@@ -137,13 +137,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a0f50671",
+   "id": "bbfdc8d2",
    "metadata": {
     "papermill": {
-     "duration": 0.003332,
-     "end_time": "2023-12-04T23:46:24.666472",
+     "duration": 0.003411,
+     "end_time": "2023-12-04T23:47:49.087808",
      "exception": false,
-     "start_time": "2023-12-04T23:46:24.663140",
+     "start_time": "2023-12-04T23:47:49.084397",
      "status": "completed"
     },
     "tags": []
@@ -155,13 +155,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "89162620",
+   "id": "bbb762a4",
    "metadata": {
     "papermill": {
-     "duration": 0.003344,
-     "end_time": "2023-12-04T23:46:24.673189",
+     "duration": 0.003299,
+     "end_time": "2023-12-04T23:47:49.094418",
      "exception": false,
-     "start_time": "2023-12-04T23:46:24.669845",
+     "start_time": "2023-12-04T23:47:49.091119",
      "status": "completed"
     },
     "tags": []
@@ -173,13 +173,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "af53aa70",
+   "id": "bef102f7",
    "metadata": {
     "papermill": {
-     "duration": 0.003597,
-     "end_time": "2023-12-04T23:46:24.680400",
+     "duration": 0.003312,
+     "end_time": "2023-12-04T23:47:49.101051",
      "exception": false,
-     "start_time": "2023-12-04T23:46:24.676803",
+     "start_time": "2023-12-04T23:47:49.097739",
      "status": "completed"
     },
     "tags": []
@@ -190,13 +190,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "31597b93",
+   "id": "a3295998",
    "metadata": {
     "papermill": {
-     "duration": 0.003425,
-     "end_time": "2023-12-04T23:46:24.687211",
+     "duration": 0.003415,
+     "end_time": "2023-12-04T23:47:49.107942",
      "exception": false,
-     "start_time": "2023-12-04T23:46:24.683786",
+     "start_time": "2023-12-04T23:47:49.104527",
      "status": "completed"
     },
     "tags": []
@@ -207,13 +207,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "78da9713",
+   "id": "8a267c19",
    "metadata": {
     "papermill": {
-     "duration": 0.003266,
-     "end_time": "2023-12-04T23:46:24.693874",
+     "duration": 0.003327,
+     "end_time": "2023-12-04T23:47:49.114665",
      "exception": false,
-     "start_time": "2023-12-04T23:46:24.690608",
+     "start_time": "2023-12-04T23:47:49.111338",
      "status": "completed"
     },
     "tags": []
@@ -224,13 +224,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ec55e3e5",
+   "id": "565dd24b",
    "metadata": {
     "papermill": {
-     "duration": 0.00352,
-     "end_time": "2023-12-04T23:46:24.700829",
+     "duration": 0.003403,
+     "end_time": "2023-12-04T23:47:49.121595",
      "exception": false,
-     "start_time": "2023-12-04T23:46:24.697309",
+     "start_time": "2023-12-04T23:47:49.118192",
      "status": "completed"
     },
     "tags": []
@@ -241,13 +241,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "7946b7fd",
+   "id": "03d51802",
    "metadata": {
     "papermill": {
-     "duration": 0.00329,
-     "end_time": "2023-12-04T23:46:24.707498",
+     "duration": 0.003412,
+     "end_time": "2023-12-04T23:47:49.128416",
      "exception": false,
-     "start_time": "2023-12-04T23:46:24.704208",
+     "start_time": "2023-12-04T23:47:49.125004",
      "status": "completed"
     },
     "tags": []
@@ -259,13 +259,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "58ff8f21",
+   "id": "9eab17b1",
    "metadata": {
     "papermill": {
-     "duration": 0.003272,
-     "end_time": "2023-12-04T23:46:24.714180",
+     "duration": 0.003373,
+     "end_time": "2023-12-04T23:47:49.135222",
      "exception": false,
-     "start_time": "2023-12-04T23:46:24.710908",
+     "start_time": "2023-12-04T23:47:49.131849",
      "status": "completed"
     },
     "tags": []
@@ -277,13 +277,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "858c1418",
+   "id": "f9e4aaad",
    "metadata": {
     "papermill": {
-     "duration": 0.003358,
-     "end_time": "2023-12-04T23:46:24.721201",
+     "duration": 0.003369,
+     "end_time": "2023-12-04T23:47:49.142085",
      "exception": false,
-     "start_time": "2023-12-04T23:46:24.717843",
+     "start_time": "2023-12-04T23:47:49.138716",
      "status": "completed"
     },
     "tags": []
@@ -332,14 +332,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.133294,
-   "end_time": "2023-12-04T23:46:24.844138",
+   "duration": 3.184845,
+   "end_time": "2023-12-04T23:47:49.267421",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-12-04T23:46:21.710844",
+   "start_time": "2023-12-04T23:47:46.082576",
    "version": "2.4.0"
   }
  },
