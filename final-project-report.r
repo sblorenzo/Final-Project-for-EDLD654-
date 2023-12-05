@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "e3d0da56",
+   "id": "26c38725",
    "metadata": {
     "papermill": {
-     "duration": 0.004737,
-     "end_time": "2023-12-05T00:04:40.129496",
+     "duration": 0.004028,
+     "end_time": "2023-12-05T01:37:30.005955",
      "exception": false,
-     "start_time": "2023-12-05T00:04:40.124759",
+     "start_time": "2023-12-05T01:37:30.001927",
      "status": "completed"
     },
     "tags": []
@@ -21,13 +21,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "e34d370a",
+   "id": "d4361e41",
    "metadata": {
     "papermill": {
-     "duration": 0.003651,
-     "end_time": "2023-12-05T00:04:40.137435",
+     "duration": 0.003277,
+     "end_time": "2023-12-05T01:37:30.012611",
      "exception": false,
-     "start_time": "2023-12-05T00:04:40.133784",
+     "start_time": "2023-12-05T01:37:30.009334",
      "status": "completed"
     },
     "tags": []
@@ -41,13 +41,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "b9a34837",
+   "id": "22aeb9e1",
    "metadata": {
     "papermill": {
-     "duration": 0.003367,
-     "end_time": "2023-12-05T00:04:40.144223",
+     "duration": 0.003165,
+     "end_time": "2023-12-05T01:37:30.019100",
      "exception": false,
-     "start_time": "2023-12-05T00:04:40.140856",
+     "start_time": "2023-12-05T01:37:30.015935",
      "status": "completed"
     },
     "tags": []
@@ -58,13 +58,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "585aec91",
+   "id": "7336cc28",
    "metadata": {
     "papermill": {
-     "duration": 0.00346,
-     "end_time": "2023-12-05T00:04:40.151126",
+     "duration": 0.003597,
+     "end_time": "2023-12-05T01:37:30.025960",
      "exception": false,
-     "start_time": "2023-12-05T00:04:40.147666",
+     "start_time": "2023-12-05T01:37:30.022363",
      "status": "completed"
     },
     "tags": []
@@ -77,13 +77,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "4cbd8253",
+   "id": "4e4fcbcd",
    "metadata": {
     "papermill": {
-     "duration": 0.003526,
-     "end_time": "2023-12-05T00:04:40.158067",
+     "duration": 0.003185,
+     "end_time": "2023-12-05T01:37:30.032349",
      "exception": false,
-     "start_time": "2023-12-05T00:04:40.154541",
+     "start_time": "2023-12-05T01:37:30.029164",
      "status": "completed"
     },
     "tags": []
@@ -98,13 +98,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "83c13197",
+   "id": "e826c42b",
    "metadata": {
     "papermill": {
-     "duration": 0.003201,
-     "end_time": "2023-12-05T00:04:40.164675",
+     "duration": 0.003197,
+     "end_time": "2023-12-05T01:37:30.038747",
      "exception": false,
-     "start_time": "2023-12-05T00:04:40.161474",
+     "start_time": "2023-12-05T01:37:30.035550",
      "status": "completed"
     },
     "tags": []
@@ -119,31 +119,40 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a3dec41e",
+   "id": "8be0417f",
    "metadata": {
     "papermill": {
-     "duration": 0.003184,
-     "end_time": "2023-12-05T00:04:40.171116",
+     "duration": 0.003178,
+     "end_time": "2023-12-05T01:37:30.045204",
      "exception": false,
-     "start_time": "2023-12-05T00:04:40.167932",
+     "start_time": "2023-12-05T01:37:30.042026",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
     "**Description of Data**\n",
-    "\n"
+    "\n",
+    "The overall data observed is comprised of three separate files: a sample submission, a test set, and a training set. Each sample in the train and test datasets encompass the *text* of a tweet, a *keyword* from each tweet, and each tweet's *location* of origin. In addition, the columns within the sets are organized as follows: **ID** (i.e., a unique identifier for each tweet), **Text** (i.e., the text of the tweet), **Location** (i.e., where in which the tweet was sent; some cells may be blank), **Keyword** (i.e., a particular word classifyer for the tweet; some cells may be blank), and **Target** (i.e., whether a tweet is about a real disaster or not; included in the training set only). In reference to the Target category, tweets that refer to a disaster are coded as **1** while those that do not refer to a disaster are coded as **0**.\n",
+    "\n",
+    "I began processing the data by importing the competition's provided \"Getting Started\" folder into Kaggle, which then read the sample submission, test set, and training set files. Next, I used the **finalfit package** to view descriptive statistics of the data through both continuous and categorical tables. Through this, I was able to see that there were no missing values.\n",
+    "\n",
+    "I then proceeded to load the **reticulate** and **sentence_transformer packages**. Using the **RoBERTa model** (available on Hugging Face) as my pre-trained language model, I was able to encode any text sequence up to 512 tokens as input and then return a numerical vector with a length of 768 that represent this text sequence. Afterwards, I was able to compute the text embeddings for reading tweets using the **Longformer model**.\n",
+    "\n",
+    "Next, I merged the embeddings with the main datasets, dropping the Text column since it was no longer needed after the embeddings were obtained. I then grouped the numeric and categorical variables together while leaving the ID and Target columns out of arrangement. \n",
+    "\n",
+    "Applying the **Recipe package**, I was able to declare my variables of interest to be used for modeling by assigning different roles (i.e., predictor, id, and outcome), as well as the processes to be applied. I then mixed the ingredients in the recipe by applying the **prep function** to the training data, which was then transformed into a new data set. Through this, the output object printed the number of variables for each assigned role (in this case, there is 1 outcome, 770 preductors, and 1 id). Then, in order to obtain a realistic measure of model performance, I split the data into two subsamples: training (**tweet_tr**; 6,090 tweets) and test (**tweet_te**; 1,523 tweets) datasets. Due to the relatively small sample size, I used an 80/20 split. The smaller test dataset will be used as a final hold-out set and the training dataset will be used to build my models. From here, I am able to use the **caret package** to build three preduction models."
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "eccbfaf2",
+   "id": "717560aa",
    "metadata": {
     "papermill": {
-     "duration": 0.00316,
-     "end_time": "2023-12-05T00:04:40.177437",
+     "duration": 0.003207,
+     "end_time": "2023-12-05T01:37:30.051605",
      "exception": false,
-     "start_time": "2023-12-05T00:04:40.174277",
+     "start_time": "2023-12-05T01:37:30.048398",
      "status": "completed"
     },
     "tags": []
@@ -155,13 +164,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "4be185cb",
+   "id": "0c7c9e4a",
    "metadata": {
     "papermill": {
-     "duration": 0.003248,
-     "end_time": "2023-12-05T00:04:40.183881",
+     "duration": 0.003247,
+     "end_time": "2023-12-05T01:37:30.058081",
      "exception": false,
-     "start_time": "2023-12-05T00:04:40.180633",
+     "start_time": "2023-12-05T01:37:30.054834",
      "status": "completed"
     },
     "tags": []
@@ -173,64 +182,64 @@
   },
   {
    "cell_type": "markdown",
-   "id": "4f6480c7",
+   "id": "2744daf3",
    "metadata": {
     "papermill": {
-     "duration": 0.003779,
-     "end_time": "2023-12-05T00:04:40.190838",
+     "duration": 0.003208,
+     "end_time": "2023-12-05T01:37:30.064491",
      "exception": false,
-     "start_time": "2023-12-05T00:04:40.187059",
+     "start_time": "2023-12-05T01:37:30.061283",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "***Model 1:***"
+    "***Model 1: Regular Regression***"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "cdcfc8a8",
+   "id": "267d13a5",
    "metadata": {
     "papermill": {
-     "duration": 0.003275,
-     "end_time": "2023-12-05T00:04:40.197834",
+     "duration": 0.003191,
+     "end_time": "2023-12-05T01:37:30.070907",
      "exception": false,
-     "start_time": "2023-12-05T00:04:40.194559",
+     "start_time": "2023-12-05T01:37:30.067716",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "***Model 2:***"
+    "***Model 2: Ridge Regression***"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "67a9fb45",
+   "id": "832b497a",
    "metadata": {
     "papermill": {
-     "duration": 0.003239,
-     "end_time": "2023-12-05T00:04:40.204295",
+     "duration": 0.003295,
+     "end_time": "2023-12-05T01:37:30.077429",
      "exception": false,
-     "start_time": "2023-12-05T00:04:40.201056",
+     "start_time": "2023-12-05T01:37:30.074134",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "***Model 3:***"
+    "***Model 3: Lasso Regression***"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "c6513069",
+   "id": "4baa86f5",
    "metadata": {
     "papermill": {
-     "duration": 0.003194,
-     "end_time": "2023-12-05T00:04:40.210675",
+     "duration": 0.003538,
+     "end_time": "2023-12-05T01:37:30.085105",
      "exception": false,
-     "start_time": "2023-12-05T00:04:40.207481",
+     "start_time": "2023-12-05T01:37:30.081567",
      "status": "completed"
     },
     "tags": []
@@ -242,13 +251,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "f127729b",
+   "id": "1fd846fc",
    "metadata": {
     "papermill": {
-     "duration": 0.003201,
-     "end_time": "2023-12-05T00:04:40.217037",
+     "duration": 0.003282,
+     "end_time": "2023-12-05T01:37:30.091653",
      "exception": false,
-     "start_time": "2023-12-05T00:04:40.213836",
+     "start_time": "2023-12-05T01:37:30.088371",
      "status": "completed"
     },
     "tags": []
@@ -260,13 +269,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "5e2daf79",
+   "id": "15f5d0ca",
    "metadata": {
     "papermill": {
-     "duration": 0.003246,
-     "end_time": "2023-12-05T00:04:40.223456",
+     "duration": 0.003318,
+     "end_time": "2023-12-05T01:37:30.098222",
      "exception": false,
-     "start_time": "2023-12-05T00:04:40.220210",
+     "start_time": "2023-12-05T01:37:30.094904",
      "status": "completed"
     },
     "tags": []
@@ -315,14 +324,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.118746,
-   "end_time": "2023-12-05T00:04:40.346085",
+   "duration": 2.988069,
+   "end_time": "2023-12-05T01:37:30.220049",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-12-05T00:04:37.227339",
+   "start_time": "2023-12-05T01:37:27.231980",
    "version": "2.4.0"
   }
  },
