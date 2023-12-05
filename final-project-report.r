@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "12ea9401",
+   "id": "32078799",
    "metadata": {
     "papermill": {
-     "duration": 0.007171,
-     "end_time": "2023-12-05T02:04:30.334404",
+     "duration": 0.007579,
+     "end_time": "2023-12-05T03:51:28.100180",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.327233",
+     "start_time": "2023-12-05T03:51:28.092601",
      "status": "completed"
     },
     "tags": []
@@ -21,13 +21,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "6b7798b9",
+   "id": "8a41e150",
    "metadata": {
     "papermill": {
-     "duration": 0.006172,
-     "end_time": "2023-12-05T02:04:30.346864",
+     "duration": 0.006077,
+     "end_time": "2023-12-05T03:51:28.112582",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.340692",
+     "start_time": "2023-12-05T03:51:28.106505",
      "status": "completed"
     },
     "tags": []
@@ -41,13 +41,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "daafb725",
+   "id": "a81124be",
    "metadata": {
     "papermill": {
-     "duration": 0.006175,
-     "end_time": "2023-12-05T02:04:30.359161",
+     "duration": 0.00617,
+     "end_time": "2023-12-05T03:51:28.124816",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.352986",
+     "start_time": "2023-12-05T03:51:28.118646",
      "status": "completed"
     },
     "tags": []
@@ -58,13 +58,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "d5642658",
+   "id": "ff12d0b0",
    "metadata": {
     "papermill": {
-     "duration": 0.006131,
-     "end_time": "2023-12-05T02:04:30.371359",
+     "duration": 0.006364,
+     "end_time": "2023-12-05T03:51:28.137193",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.365228",
+     "start_time": "2023-12-05T03:51:28.130829",
      "status": "completed"
     },
     "tags": []
@@ -77,13 +77,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "d2e0dead",
+   "id": "b5ef6c7d",
    "metadata": {
     "papermill": {
-     "duration": 0.006169,
-     "end_time": "2023-12-05T02:04:30.383597",
+     "duration": 0.006192,
+     "end_time": "2023-12-05T03:51:28.149590",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.377428",
+     "start_time": "2023-12-05T03:51:28.143398",
      "status": "completed"
     },
     "tags": []
@@ -98,13 +98,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "82569b4c",
+   "id": "f50a3b10",
    "metadata": {
     "papermill": {
-     "duration": 0.006115,
-     "end_time": "2023-12-05T02:04:30.395758",
+     "duration": 0.006175,
+     "end_time": "2023-12-05T03:51:28.161982",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.389643",
+     "start_time": "2023-12-05T03:51:28.155807",
      "status": "completed"
     },
     "tags": []
@@ -119,13 +119,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "e8a5ed5f",
+   "id": "06333054",
    "metadata": {
     "papermill": {
-     "duration": 0.006198,
-     "end_time": "2023-12-05T02:04:30.408007",
+     "duration": 0.006072,
+     "end_time": "2023-12-05T03:51:28.174147",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.401809",
+     "start_time": "2023-12-05T03:51:28.168075",
      "status": "completed"
     },
     "tags": []
@@ -145,13 +145,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "d6997f90",
+   "id": "925546ec",
    "metadata": {
     "papermill": {
-     "duration": 0.006109,
-     "end_time": "2023-12-05T02:04:30.420169",
+     "duration": 0.00607,
+     "end_time": "2023-12-05T03:51:28.186256",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.414060",
+     "start_time": "2023-12-05T03:51:28.180186",
      "status": "completed"
     },
     "tags": []
@@ -162,13 +162,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0818db97",
+   "id": "247e7dbe",
    "metadata": {
     "papermill": {
-     "duration": 0.006172,
-     "end_time": "2023-12-05T02:04:30.432370",
+     "duration": 0.006273,
+     "end_time": "2023-12-05T03:51:28.198604",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.426198",
+     "start_time": "2023-12-05T03:51:28.192331",
      "status": "completed"
     },
     "tags": []
@@ -178,18 +178,18 @@
     "\n",
     "Next, I merged the embeddings with the main datasets, dropping the Text column since it was no longer needed after the embeddings were obtained. I then grouped the numeric and categorical variables together while leaving the ID and Target columns out of the arrangement. \n",
     "\n",
-    "Applying the **Recipe package**, I was able to declare my variables of interest to be used for modeling by assigning different roles (i.e., predictor, id, and outcome), as well as the processes to be applied. I then mixed the ingredients in the recipe by applying the **prep function** to the training data, which was then transformed into a new data set. Through this, the output object printed the number of variables for each assigned role (in this case, there is 1 outcome, 770 preductors, and 1 id). Then, in order to obtain a realistic measure of model performance, I split the data into two subsamples: training (**tweet_tr**; 6,090 tweets) and test (**tweet_te**; 1,523 tweets) datasets. Due to the relatively small sample size, I used an 80/20 split. The smaller test dataset will be used as a final hold-out set and the training dataset will be used to build my models. From here, I am able to use the **caret package** to build three predictive models."
+    "Applying the **recipe package**, I was able to declare my variables of interest to be used for modeling by assigning different roles (i.e., predictor, id, and outcome), as well as the processes to be applied. I then mixed the ingredients in the recipe by applying the **prep function** to the training data, which was then transformed into a new data set. Through this, the output object printed the number of variables for each assigned role (in this case, there is 1 outcome, 770 preductors, and 1 id). Then, in order to obtain a realistic measure of model performance, I split the data into two subsamples: training (**tweet_tr**; 6,090 tweets) and test (**tweet_te**; 1,523 tweets) datasets. Due to the relatively small sample size, I used an 80/20 split. The smaller test dataset will be used as a final hold-out set and the training dataset will be used to build my models. From here, I am able to use the **caret package** to build three predictive models."
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "c7e729bc",
+   "id": "7d000629",
    "metadata": {
     "papermill": {
-     "duration": 0.00694,
-     "end_time": "2023-12-05T02:04:30.445596",
+     "duration": 0.006059,
+     "end_time": "2023-12-05T03:51:28.210832",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.438656",
+     "start_time": "2023-12-05T03:51:28.204773",
      "status": "completed"
     },
     "tags": []
@@ -201,13 +201,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "54e34c89",
+   "id": "296f8027",
    "metadata": {
     "papermill": {
-     "duration": 0.006003,
-     "end_time": "2023-12-05T02:04:30.458108",
+     "duration": 0.006022,
+     "end_time": "2023-12-05T03:51:28.222980",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.452105",
+     "start_time": "2023-12-05T03:51:28.216958",
      "status": "completed"
     },
     "tags": []
@@ -218,13 +218,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "37449f98",
+   "id": "3f6230bf",
    "metadata": {
     "papermill": {
-     "duration": 0.006149,
-     "end_time": "2023-12-05T02:04:30.470426",
+     "duration": 0.006139,
+     "end_time": "2023-12-05T03:51:28.235183",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.464277",
+     "start_time": "2023-12-05T03:51:28.229044",
      "status": "completed"
     },
     "tags": []
@@ -236,13 +236,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "5aea941e",
+   "id": "a55b9015",
    "metadata": {
     "papermill": {
-     "duration": 0.006039,
-     "end_time": "2023-12-05T02:04:30.482612",
+     "duration": 0.006081,
+     "end_time": "2023-12-05T03:51:28.247418",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.476573",
+     "start_time": "2023-12-05T03:51:28.241337",
      "status": "completed"
     },
     "tags": []
@@ -253,13 +253,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0641f196",
+   "id": "2e503997",
    "metadata": {
     "papermill": {
-     "duration": 0.006115,
-     "end_time": "2023-12-05T02:04:30.494834",
+     "duration": 0.006082,
+     "end_time": "2023-12-05T03:51:28.259521",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.488719",
+     "start_time": "2023-12-05T03:51:28.253439",
      "status": "completed"
     },
     "tags": []
@@ -270,13 +270,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "c0aed2d8",
+   "id": "7f166c42",
    "metadata": {
     "papermill": {
-     "duration": 0.006056,
-     "end_time": "2023-12-05T02:04:30.507018",
+     "duration": 0.006109,
+     "end_time": "2023-12-05T03:51:28.271697",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.500962",
+     "start_time": "2023-12-05T03:51:28.265588",
      "status": "completed"
     },
     "tags": []
@@ -287,13 +287,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "082434b3",
+   "id": "21ef69f1",
    "metadata": {
     "papermill": {
-     "duration": 0.006056,
-     "end_time": "2023-12-05T02:04:30.519181",
+     "duration": 0.006008,
+     "end_time": "2023-12-05T03:51:28.283746",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.513125",
+     "start_time": "2023-12-05T03:51:28.277738",
      "status": "completed"
     },
     "tags": []
@@ -304,13 +304,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "82d16e34",
+   "id": "dc9612d6",
    "metadata": {
     "papermill": {
-     "duration": 0.006095,
-     "end_time": "2023-12-05T02:04:30.531360",
+     "duration": 0.006038,
+     "end_time": "2023-12-05T03:51:28.295800",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.525265",
+     "start_time": "2023-12-05T03:51:28.289762",
      "status": "completed"
     },
     "tags": []
@@ -322,13 +322,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a29071c0",
+   "id": "ea5dfeec",
    "metadata": {
     "papermill": {
-     "duration": 0.006061,
-     "end_time": "2023-12-05T02:04:30.543629",
+     "duration": 0.006119,
+     "end_time": "2023-12-05T03:51:28.308059",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.537568",
+     "start_time": "2023-12-05T03:51:28.301940",
      "status": "completed"
     },
     "tags": []
@@ -340,13 +340,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "96c2883c",
+   "id": "cd9d15c0",
    "metadata": {
     "papermill": {
-     "duration": 0.006041,
-     "end_time": "2023-12-05T02:04:30.555768",
+     "duration": 0.006132,
+     "end_time": "2023-12-05T03:51:28.320241",
      "exception": false,
-     "start_time": "2023-12-05T02:04:30.549727",
+     "start_time": "2023-12-05T03:51:28.314109",
      "status": "completed"
     },
     "tags": []
@@ -395,14 +395,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.221061,
-   "end_time": "2023-12-05T02:04:30.683577",
+   "duration": 3.177715,
+   "end_time": "2023-12-05T03:51:28.445232",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-12-05T02:04:27.462516",
+   "start_time": "2023-12-05T03:51:25.267517",
    "version": "2.4.0"
   }
  },
