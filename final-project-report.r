@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "99417a8f",
+   "id": "7e90a53f",
    "metadata": {
     "papermill": {
-     "duration": 0.026213,
-     "end_time": "2023-12-07T03:07:13.768737",
+     "duration": 0.020523,
+     "end_time": "2023-12-07T03:29:17.945096",
      "exception": false,
-     "start_time": "2023-12-07T03:07:13.742524",
+     "start_time": "2023-12-07T03:29:17.924573",
      "status": "completed"
     },
     "tags": []
@@ -21,13 +21,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "f6319ccc",
+   "id": "87af40f4",
    "metadata": {
     "papermill": {
-     "duration": 0.020522,
-     "end_time": "2023-12-07T03:07:13.810810",
+     "duration": 0.017786,
+     "end_time": "2023-12-07T03:29:17.980741",
      "exception": false,
-     "start_time": "2023-12-07T03:07:13.790288",
+     "start_time": "2023-12-07T03:29:17.962955",
      "status": "completed"
     },
     "tags": []
@@ -41,30 +41,30 @@
   },
   {
    "cell_type": "markdown",
-   "id": "d895c6f6",
+   "id": "a5ecd34a",
    "metadata": {
     "papermill": {
-     "duration": 0.020651,
-     "end_time": "2023-12-07T03:07:13.851884",
+     "duration": 0.018021,
+     "end_time": "2023-12-07T03:29:18.016377",
      "exception": false,
-     "start_time": "2023-12-07T03:07:13.831233",
+     "start_time": "2023-12-07T03:29:17.998356",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "**Reproducibility Note:** Please use this [link](https://github.com/sblorenzo/Final-Project-for-EDLD654-) to view the GitHub repopsitory. Instructions on how to maneuver throughout the repository can be found in the **README.md** file within the **Main Branch**. All of the coding used for this final project report can be found in the **r-code.r** file within the **R Branch** or through the **R Code** [Kaggle notebook](https://www.kaggle.com/code/samanthalorenzo/r-code). All of the data files used for this final project report can be found within the **Data Branch** of the GitHub repository."
+    "**Reproducibility Note:** Please use this [link](https://github.com/sblorenzo/Final-Project-for-EDLD654-) to view the GitHub repository. Instructions on how to maneuver throughout the repository can be found in the **README.md** file within the **Main Branch**. All of the coding used for this final project report can be found in the **r-code.r** file within the **R Branch** or through the **R Code** [Kaggle notebook](https://www.kaggle.com/code/samanthalorenzo/r-code). All of the data files used for this final project report can be found within the **Data Branch** of the GitHub repository."
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "4a8289c9",
+   "id": "45ed23fe",
    "metadata": {
     "papermill": {
-     "duration": 0.020465,
-     "end_time": "2023-12-07T03:07:13.892895",
+     "duration": 0.018178,
+     "end_time": "2023-12-07T03:29:18.051838",
      "exception": false,
-     "start_time": "2023-12-07T03:07:13.872430",
+     "start_time": "2023-12-07T03:29:18.033660",
      "status": "completed"
     },
     "tags": []
@@ -89,13 +89,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "4f2592db",
+   "id": "67c7d161",
    "metadata": {
     "papermill": {
-     "duration": 0.020971,
-     "end_time": "2023-12-07T03:07:13.934222",
+     "duration": 0.017503,
+     "end_time": "2023-12-07T03:29:18.086709",
      "exception": false,
-     "start_time": "2023-12-07T03:07:13.913251",
+     "start_time": "2023-12-07T03:29:18.069206",
      "status": "completed"
     },
     "tags": []
@@ -115,13 +115,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "01578d67",
+   "id": "2fbc7d73",
    "metadata": {
     "papermill": {
-     "duration": 0.020846,
-     "end_time": "2023-12-07T03:07:13.975555",
+     "duration": 0.017974,
+     "end_time": "2023-12-07T03:29:18.122418",
      "exception": false,
-     "start_time": "2023-12-07T03:07:13.954709",
+     "start_time": "2023-12-07T03:29:18.104444",
      "status": "completed"
     },
     "tags": []
@@ -132,13 +132,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "29922ced",
+   "id": "f35471a0",
    "metadata": {
     "papermill": {
-     "duration": 0.023418,
-     "end_time": "2023-12-07T03:07:14.019509",
+     "duration": 0.01774,
+     "end_time": "2023-12-07T03:29:18.157803",
      "exception": false,
-     "start_time": "2023-12-07T03:07:13.996091",
+     "start_time": "2023-12-07T03:29:18.140063",
      "status": "completed"
     },
     "tags": []
@@ -151,13 +151,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "bf50e74c",
+   "id": "0af1da64",
    "metadata": {
     "papermill": {
-     "duration": 0.020399,
-     "end_time": "2023-12-07T03:07:14.060708",
+     "duration": 0.017427,
+     "end_time": "2023-12-07T03:29:18.192665",
      "exception": false,
-     "start_time": "2023-12-07T03:07:14.040309",
+     "start_time": "2023-12-07T03:29:18.175238",
      "status": "completed"
     },
     "tags": []
@@ -185,13 +185,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "d95e3ab3",
+   "id": "9bb6106a",
    "metadata": {
     "papermill": {
-     "duration": 0.020396,
-     "end_time": "2023-12-07T03:07:14.102529",
+     "duration": 0.017464,
+     "end_time": "2023-12-07T03:29:18.227693",
      "exception": false,
-     "start_time": "2023-12-07T03:07:14.082133",
+     "start_time": "2023-12-07T03:29:18.210229",
      "status": "completed"
     },
     "tags": []
@@ -207,13 +207,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "7c64daaf",
+   "id": "1c0470e6",
    "metadata": {
     "papermill": {
-     "duration": 0.020327,
-     "end_time": "2023-12-07T03:07:14.143000",
+     "duration": 0.017519,
+     "end_time": "2023-12-07T03:29:18.262808",
      "exception": false,
-     "start_time": "2023-12-07T03:07:14.122673",
+     "start_time": "2023-12-07T03:29:18.245289",
      "status": "completed"
     },
     "tags": []
@@ -224,13 +224,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "59c783f3",
+   "id": "4f784b18",
    "metadata": {
     "papermill": {
-     "duration": 0.020563,
-     "end_time": "2023-12-07T03:07:14.184192",
+     "duration": 0.017319,
+     "end_time": "2023-12-07T03:29:18.297479",
      "exception": false,
-     "start_time": "2023-12-07T03:07:14.163629",
+     "start_time": "2023-12-07T03:29:18.280160",
      "status": "completed"
     },
     "tags": []
@@ -250,13 +250,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "c29efa18",
+   "id": "7d43f6f6",
    "metadata": {
     "papermill": {
-     "duration": 0.020627,
-     "end_time": "2023-12-07T03:07:14.225238",
+     "duration": 0.017438,
+     "end_time": "2023-12-07T03:29:18.332139",
      "exception": false,
-     "start_time": "2023-12-07T03:07:14.204611",
+     "start_time": "2023-12-07T03:29:18.314701",
      "status": "completed"
     },
     "tags": []
@@ -272,13 +272,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "294c5b8f",
+   "id": "be268653",
    "metadata": {
     "papermill": {
-     "duration": 0.020328,
-     "end_time": "2023-12-07T03:07:14.265930",
+     "duration": 0.017393,
+     "end_time": "2023-12-07T03:29:18.367038",
      "exception": false,
-     "start_time": "2023-12-07T03:07:14.245602",
+     "start_time": "2023-12-07T03:29:18.349645",
      "status": "completed"
     },
     "tags": []
@@ -289,13 +289,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "372f7e8f",
+   "id": "ef7d44f8",
    "metadata": {
     "papermill": {
-     "duration": 0.020412,
-     "end_time": "2023-12-07T03:07:14.306528",
+     "duration": 0.017329,
+     "end_time": "2023-12-07T03:29:18.401836",
      "exception": false,
-     "start_time": "2023-12-07T03:07:14.286116",
+     "start_time": "2023-12-07T03:29:18.384507",
      "status": "completed"
     },
     "tags": []
@@ -315,13 +315,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "3e14cb5a",
+   "id": "b15bce9c",
    "metadata": {
     "papermill": {
-     "duration": 0.020499,
-     "end_time": "2023-12-07T03:07:14.347354",
+     "duration": 0.017195,
+     "end_time": "2023-12-07T03:29:18.436078",
      "exception": false,
-     "start_time": "2023-12-07T03:07:14.326855",
+     "start_time": "2023-12-07T03:29:18.418883",
      "status": "completed"
     },
     "tags": []
@@ -332,13 +332,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "f190fb8b",
+   "id": "ba8fb07b",
    "metadata": {
     "papermill": {
-     "duration": 0.020324,
-     "end_time": "2023-12-07T03:07:14.388436",
+     "duration": 0.017271,
+     "end_time": "2023-12-07T03:29:18.470750",
      "exception": false,
-     "start_time": "2023-12-07T03:07:14.368112",
+     "start_time": "2023-12-07T03:29:18.453479",
      "status": "completed"
     },
     "tags": []
@@ -356,13 +356,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "fb4cc7c3",
+   "id": "b0de9a2a",
    "metadata": {
     "papermill": {
-     "duration": 0.01952,
-     "end_time": "2023-12-07T03:07:14.427982",
+     "duration": 0.017244,
+     "end_time": "2023-12-07T03:29:18.505184",
      "exception": false,
-     "start_time": "2023-12-07T03:07:14.408462",
+     "start_time": "2023-12-07T03:29:18.487940",
      "status": "completed"
     },
     "tags": []
@@ -373,13 +373,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "fb2f4ae5",
+   "id": "b735d43e",
    "metadata": {
     "papermill": {
-     "duration": 0.019152,
-     "end_time": "2023-12-07T03:07:14.466393",
+     "duration": 0.017932,
+     "end_time": "2023-12-07T03:29:18.540268",
      "exception": false,
-     "start_time": "2023-12-07T03:07:14.447241",
+     "start_time": "2023-12-07T03:29:18.522336",
      "status": "completed"
     },
     "tags": []
@@ -392,13 +392,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "5ee8a069",
+   "id": "bbcc43a5",
    "metadata": {
     "papermill": {
-     "duration": 0.019163,
-     "end_time": "2023-12-07T03:07:14.504794",
+     "duration": 0.017351,
+     "end_time": "2023-12-07T03:29:18.574804",
      "exception": false,
-     "start_time": "2023-12-07T03:07:14.485631",
+     "start_time": "2023-12-07T03:29:18.557453",
      "status": "completed"
     },
     "tags": []
@@ -452,14 +452,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 5.031403,
-   "end_time": "2023-12-07T03:07:14.648700",
+   "duration": 3.919317,
+   "end_time": "2023-12-07T03:29:18.714206",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-12-07T03:07:09.617297",
+   "start_time": "2023-12-07T03:29:14.794889",
    "version": "2.4.0"
   }
  },
