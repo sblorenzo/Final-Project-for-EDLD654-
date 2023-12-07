@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "f3aa7572",
+   "id": "9e38f932",
    "metadata": {
     "papermill": {
-     "duration": 0.014367,
-     "end_time": "2023-12-07T01:52:29.736995",
+     "duration": 0.013429,
+     "end_time": "2023-12-07T01:55:56.689354",
      "exception": false,
-     "start_time": "2023-12-07T01:52:29.722628",
+     "start_time": "2023-12-07T01:55:56.675925",
      "status": "completed"
     },
     "tags": []
@@ -21,13 +21,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "1aff2680",
+   "id": "0142d3c4",
    "metadata": {
     "papermill": {
-     "duration": 0.011193,
-     "end_time": "2023-12-07T01:52:29.759424",
+     "duration": 0.014056,
+     "end_time": "2023-12-07T01:55:56.716268",
      "exception": false,
-     "start_time": "2023-12-07T01:52:29.748231",
+     "start_time": "2023-12-07T01:55:56.702212",
      "status": "completed"
     },
     "tags": []
@@ -41,13 +41,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "5ebfe941",
+   "id": "d6d1cc83",
    "metadata": {
     "papermill": {
-     "duration": 0.011299,
-     "end_time": "2023-12-07T01:52:29.782019",
+     "duration": 0.012255,
+     "end_time": "2023-12-07T01:55:56.740708",
      "exception": false,
-     "start_time": "2023-12-07T01:52:29.770720",
+     "start_time": "2023-12-07T01:55:56.728453",
      "status": "completed"
     },
     "tags": []
@@ -58,13 +58,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "04df6511",
+   "id": "25c16dd7",
    "metadata": {
     "papermill": {
-     "duration": 0.011098,
-     "end_time": "2023-12-07T01:52:29.804517",
+     "duration": 0.012403,
+     "end_time": "2023-12-07T01:55:56.765188",
      "exception": false,
-     "start_time": "2023-12-07T01:52:29.793419",
+     "start_time": "2023-12-07T01:55:56.752785",
      "status": "completed"
     },
     "tags": []
@@ -89,13 +89,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "230aec79",
+   "id": "8e325372",
    "metadata": {
     "papermill": {
-     "duration": 0.012395,
-     "end_time": "2023-12-07T01:52:29.828413",
+     "duration": 0.012347,
+     "end_time": "2023-12-07T01:55:56.789330",
      "exception": false,
-     "start_time": "2023-12-07T01:52:29.816018",
+     "start_time": "2023-12-07T01:55:56.776983",
      "status": "completed"
     },
     "tags": []
@@ -115,13 +115,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "92d861d3",
+   "id": "3ba2b0fb",
    "metadata": {
     "papermill": {
-     "duration": 0.011897,
-     "end_time": "2023-12-07T01:52:29.852203",
+     "duration": 0.011875,
+     "end_time": "2023-12-07T01:55:56.813004",
      "exception": false,
-     "start_time": "2023-12-07T01:52:29.840306",
+     "start_time": "2023-12-07T01:55:56.801129",
      "status": "completed"
     },
     "tags": []
@@ -132,13 +132,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "d3e2387b",
+   "id": "e25acd68",
    "metadata": {
     "papermill": {
-     "duration": 0.011583,
-     "end_time": "2023-12-07T01:52:29.875452",
+     "duration": 0.012095,
+     "end_time": "2023-12-07T01:55:56.837053",
      "exception": false,
-     "start_time": "2023-12-07T01:52:29.863869",
+     "start_time": "2023-12-07T01:55:56.824958",
      "status": "completed"
     },
     "tags": []
@@ -151,13 +151,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "6f9cde2f",
+   "id": "478210a8",
    "metadata": {
     "papermill": {
-     "duration": 0.011866,
-     "end_time": "2023-12-07T01:52:29.898949",
+     "duration": 0.012667,
+     "end_time": "2023-12-07T01:55:56.861323",
      "exception": false,
-     "start_time": "2023-12-07T01:52:29.887083",
+     "start_time": "2023-12-07T01:55:56.848656",
      "status": "completed"
     },
     "tags": []
@@ -185,13 +185,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "37ec40fc",
+   "id": "728693c4",
    "metadata": {
     "papermill": {
-     "duration": 0.011504,
-     "end_time": "2023-12-07T01:52:29.922085",
+     "duration": 0.012951,
+     "end_time": "2023-12-07T01:55:56.885942",
      "exception": false,
-     "start_time": "2023-12-07T01:52:29.910581",
+     "start_time": "2023-12-07T01:55:56.872991",
      "status": "completed"
     },
     "tags": []
@@ -207,13 +207,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "002a7910",
+   "id": "58bf7d6d",
    "metadata": {
     "papermill": {
-     "duration": 0.011702,
-     "end_time": "2023-12-07T01:52:29.945264",
+     "duration": 0.011895,
+     "end_time": "2023-12-07T01:55:56.910096",
      "exception": false,
-     "start_time": "2023-12-07T01:52:29.933562",
+     "start_time": "2023-12-07T01:55:56.898201",
      "status": "completed"
     },
     "tags": []
@@ -224,13 +224,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "8e7dd0f3",
+   "id": "2582456a",
    "metadata": {
     "papermill": {
-     "duration": 0.011921,
-     "end_time": "2023-12-07T01:52:29.968845",
+     "duration": 0.011654,
+     "end_time": "2023-12-07T01:55:56.936399",
      "exception": false,
-     "start_time": "2023-12-07T01:52:29.956924",
+     "start_time": "2023-12-07T01:55:56.924745",
      "status": "completed"
     },
     "tags": []
@@ -250,13 +250,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "210108f5",
+   "id": "ea53b8b5",
    "metadata": {
     "papermill": {
-     "duration": 0.011551,
-     "end_time": "2023-12-07T01:52:29.992011",
+     "duration": 0.011676,
+     "end_time": "2023-12-07T01:55:56.959620",
      "exception": false,
-     "start_time": "2023-12-07T01:52:29.980460",
+     "start_time": "2023-12-07T01:55:56.947944",
      "status": "completed"
     },
     "tags": []
@@ -272,13 +272,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "7e527279",
+   "id": "358b270e",
    "metadata": {
     "papermill": {
-     "duration": 0.011787,
-     "end_time": "2023-12-07T01:52:30.015617",
+     "duration": 0.011269,
+     "end_time": "2023-12-07T01:55:56.982394",
      "exception": false,
-     "start_time": "2023-12-07T01:52:30.003830",
+     "start_time": "2023-12-07T01:55:56.971125",
      "status": "completed"
     },
     "tags": []
@@ -289,13 +289,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "220cafe5",
+   "id": "da18358e",
    "metadata": {
     "papermill": {
-     "duration": 0.012139,
-     "end_time": "2023-12-07T01:52:30.041110",
+     "duration": 0.011433,
+     "end_time": "2023-12-07T01:55:57.005111",
      "exception": false,
-     "start_time": "2023-12-07T01:52:30.028971",
+     "start_time": "2023-12-07T01:55:56.993678",
      "status": "completed"
     },
     "tags": []
@@ -315,13 +315,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "0a964984",
+   "id": "b2b1efba",
    "metadata": {
     "papermill": {
-     "duration": 0.012122,
-     "end_time": "2023-12-07T01:52:30.065272",
+     "duration": 0.011572,
+     "end_time": "2023-12-07T01:55:57.028209",
      "exception": false,
-     "start_time": "2023-12-07T01:52:30.053150",
+     "start_time": "2023-12-07T01:55:57.016637",
      "status": "completed"
     },
     "tags": []
@@ -332,32 +332,32 @@
   },
   {
    "cell_type": "markdown",
-   "id": "aa70621b",
+   "id": "c664b011",
    "metadata": {
     "papermill": {
-     "duration": 0.012272,
-     "end_time": "2023-12-07T01:52:30.089554",
+     "duration": 0.011624,
+     "end_time": "2023-12-07T01:55:57.051323",
      "exception": false,
-     "start_time": "2023-12-07T01:52:30.077282",
+     "start_time": "2023-12-07T01:55:57.039699",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "**Discussion/Conclusion**\n",
+    "**Discussion**\n",
     "\n",
     "Given the pros mentioned for using ridge regression (e.g., it stimulates the development of simpler models characterized by fewer predictors) and lasso regression (e.g., it enhances prediction accuracy through shrinkage), I did not expect the regluar logistic regression model to produce better results. Now that it has been determined that Model 1 is likely the best fit over its counterparts, I used the **coef function** to determine the 10 most important predictors of Target types (i.e., \"Disaster\" vs \"Otherwise\") and their regression coefficients. The results are displayed below. It seems that **X**,**X**,**X**, and **X** are the top predictors based on their larger absolute coefficients in the model. This was surprising because**...**"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "2e4a16c2",
+   "id": "3ce72d14",
    "metadata": {
     "papermill": {
-     "duration": 0.01221,
-     "end_time": "2023-12-07T01:52:30.113937",
+     "duration": 0.011345,
+     "end_time": "2023-12-07T01:55:57.074262",
      "exception": false,
-     "start_time": "2023-12-07T01:52:30.101727",
+     "start_time": "2023-12-07T01:55:57.062917",
      "status": "completed"
     },
     "tags": []
@@ -366,30 +366,32 @@
   },
   {
    "cell_type": "markdown",
-   "id": "6c8dc807",
+   "id": "a7b87ac8",
    "metadata": {
     "papermill": {
-     "duration": 0.012284,
-     "end_time": "2023-12-07T01:52:30.138345",
+     "duration": 0.011616,
+     "end_time": "2023-12-07T01:55:57.097512",
      "exception": false,
-     "start_time": "2023-12-07T01:52:30.126061",
+     "start_time": "2023-12-07T01:55:57.085896",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
+    "**Conclusion**\n",
+    "\n",
     "Overall, the work done for this final project has provided practical insights related to my research. Similar to the key purposes of the Kaggle competiton in which the data used was found, activist-oriented exploration and prosocial outcomes are the cornerstones of my research interests. My intent is to provide preventative measures for avoidable socio-psychological issues in efforts to promote a more cohesive global community for generations to come. My area of specialization lies at the intersection of persuasion and media psychology, technology and society, and media and public life. This focus inspires me to investigate tragic events (like disasters), social issues, and phenomena surrounding conspiracies and distrust. Through this project, I have garnered further insight into how content from digital communication tools can be processed and how predictive modeling can be used to cultivate effective solutions for avoidable communication problems."
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "5035b3c8",
+   "id": "fe3912e8",
    "metadata": {
     "papermill": {
-     "duration": 0.012034,
-     "end_time": "2023-12-07T01:52:30.162559",
+     "duration": 0.01172,
+     "end_time": "2023-12-07T01:55:57.120947",
      "exception": false,
-     "start_time": "2023-12-07T01:52:30.150525",
+     "start_time": "2023-12-07T01:55:57.109227",
      "status": "completed"
     },
     "tags": []
@@ -443,14 +445,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.689342,
-   "end_time": "2023-12-07T01:52:30.296957",
+   "duration": 3.845496,
+   "end_time": "2023-12-07T01:55:57.253863",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-12-07T01:52:26.607615",
+   "start_time": "2023-12-07T01:55:53.408367",
    "version": "2.4.0"
   }
  },
