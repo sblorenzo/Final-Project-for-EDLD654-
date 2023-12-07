@@ -1,4 +1,4 @@
-Instructions for Viewing/Reproducing Code:
+**Instructions for Viewing/Reproducing Code**
 
 In lieu of individual folders, there are four separate branches that contain different material for this final project:
 1. Main: Instructions on how to maneuver through this GitHub repository (Final Project for EDLD654)
