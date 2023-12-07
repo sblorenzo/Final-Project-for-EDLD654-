@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "2aacd7c1",
+   "id": "3324f657",
    "metadata": {
     "papermill": {
-     "duration": 0.02111,
-     "end_time": "2023-12-07T00:31:58.324283",
+     "duration": 0.01233,
+     "end_time": "2023-12-07T00:52:10.245252",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.303173",
+     "start_time": "2023-12-07T00:52:10.232922",
      "status": "completed"
     },
     "tags": []
@@ -21,13 +21,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "1a2bf950",
+   "id": "9080a2f8",
    "metadata": {
     "papermill": {
-     "duration": 0.018731,
-     "end_time": "2023-12-07T00:31:58.362150",
+     "duration": 0.010755,
+     "end_time": "2023-12-07T00:52:10.266891",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.343419",
+     "start_time": "2023-12-07T00:52:10.256136",
      "status": "completed"
     },
     "tags": []
@@ -41,13 +41,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "de669c40",
+   "id": "0d3b6816",
    "metadata": {
     "papermill": {
-     "duration": 0.018829,
-     "end_time": "2023-12-07T00:31:58.399763",
+     "duration": 0.010743,
+     "end_time": "2023-12-07T00:52:10.288444",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.380934",
+     "start_time": "2023-12-07T00:52:10.277701",
      "status": "completed"
     },
     "tags": []
@@ -58,13 +58,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0d56c33d",
+   "id": "e696259b",
    "metadata": {
     "papermill": {
-     "duration": 0.019154,
-     "end_time": "2023-12-07T00:31:58.437946",
+     "duration": 0.010638,
+     "end_time": "2023-12-07T00:52:10.309655",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.418792",
+     "start_time": "2023-12-07T00:52:10.299017",
      "status": "completed"
     },
     "tags": []
@@ -72,11 +72,11 @@
    "source": [
     "**Introduction**\n",
     "\n",
-    "Since the beginning of humankind, civilizations across the globe have accumulated a perpetual rolodex of disasterous events – from conflicts to environmental disasters to virus outbreaks (Roos, 2022). For instance, in 2022, the History Channel released an online article that outlined some of the most monumental crises from over the past century, aptly titled “The Deadliest Events in US History” (Roos). The list includes warfare (i.e., the U.S. Civil War, World War I, World War II, the Vietnam War, and the Korean War), acts of terrorism (i.e., 9/11), natural disasters (i.e., the 1900 Galvestone hurricane and the 1906 San Francisco earthquake and fire), and health crises (i.e., the 1918 flu pandemic, the HIV/AID epidemic, and the COVID-19 pandemic). Given the broad spectrum of categories and increasing advancements in technology, the ways in which modern communication channels can enhance the spread of information about disasterous occurrences are seemingly insurmountable.  As current events continue to redefine societal norms across the globe, digital culture remains as the cornerstone for contemporary social interactions and information dissemination. Social media in particular has become a prime tool for discussing disasters in the form of digital narratives.\n",
+    "Since the beginning of humankind, civilizations across the globe have accumulated a perpetual rolodex of disasterous events – from conflicts to environmental disasters to virus outbreaks (Roos, 2022). For instance, in 2022, the History Channel released an online article that outlined some of the most monumental crises from over the past century, aptly titled “The Deadliest Events in US History” (Roos). The list includes warfare (i.e., the U.S. Civil War, World War I, World War II, the Vietnam War, and the Korean War), acts of terrorism (i.e., 9/11), natural disasters (i.e., the 1900 Galvestone hurricane and the 1906 San Francisco earthquake and fire), and health crises (i.e., the 1918 flu pandemic, the HIV/AIDS epidemic, and the COVID-19 pandemic). Given the broad spectrum of categories and increasing advancements in technology, the ways in which modern communication channels can enhance the spread of information about disasterous occurrences are seemingly insurmountable.  As current events continue to redefine societal norms across the globe, digital culture remains as the cornerstone for contemporary social interactions and information dissemination. Social media in particular has become a prime tool for discussing disasters in the form of digital narratives.\n",
     "\n",
     "***Background***\n",
     "\n",
-    "Humans are instinctively drawn to narratives because story structures help organize experiences and document significant events. Stories enable people to live vicariously through narratives and consider the concepts being addressed. One popular form of narration is the act of micro-blogging, a mode of communication composed of user-generated posts which can be dispersed throughout the internet via internal messaging features and other technological tools, such as smartphones/devices, email, and online publications (Java et al., 2007).\n",
+    "Humans are instinctively drawn to narratives because story structures help organize experiences and document significant events. Stories enable people to live vicariously through narratives and consider the concepts being addressed. One popular form of narration is the act of micro-blogging, a mode of communication composed of user-generated posts which can be dispersed throughout the internet via internal messaging features and other technological tools, such as smartphones, email, and online publications (Java et al., 2007).\n",
     "\n",
     "Since its founding in 2006, Twitter (now X) has hailed as the premier microblogging source for its digital community and as of 2020, the platform's global network amassed more than 409 million users (“Forecast of the number of Twitter users,” 2021). Over the past decade, content on Twitter has transformed and adapted in response to current events and matters of public interest, particularly those related to disasters around the globe and political and social affairs. Information consumption and dispersion continue to prevail as primary motivators for Twitter usage, especially among Americans (Mitchell et al., 2021), along with utilizing the platform as an online communication blog (or web log) for sharing and distributing personal points of view. \n",
     "\n",
@@ -84,18 +84,18 @@
     "\n",
     "As mentioned, Twitter has become a key communication tool for important events, including disasters. The pervasiveness of the web-based smartphone application offers people a platform to announce an emergency they are witnessing in real-time. Due to this capability, more entities are increasingly becoming interested in monitoring Twitter to garner and provide life-saving information and keep disaster relief organizations and news agencies abreast of emergency situations. However, it is difficult to know for certain whether a tweet is actually announcing a disaster or if its context are rooted in something unrelated (e.g., a tweet with the word \"ablaze\" in the text could be meant metaphorically rather than to depict an active fire). So then, how can invested agencies get a better sense of when a tweet is referring to an actual disaster?\n",
     "\n",
-    "Through this report, my goal is to develop a machine learning model that predicts which Tweets are about real-life disasters and which are not. Through data complied by Howard et al. (2019) and produced as a [Natural Language Processing competition](https://www.kaggle.com/competitions/nlp-getting-started/overview) on Kaggle, I examined 10,000 hand-classified disaster tweets to create a series of predictive models and determine which is the best to mitigate the research problem at hand."
+    "Through this report, my goal is to develop a machine learning model that predicts which tweets are about real-life disasters and which are not. Through data complied by Howard et al. (2019) and produced as a [Natural Language Processing competition](https://www.kaggle.com/competitions/nlp-getting-started/overview) on Kaggle, I examined 10,000 hand-classified disaster tweets to create a series of predictive models and determine which is the best to mitigate the research problem at hand."
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "e0d2aa0b",
+   "id": "59375e71",
    "metadata": {
     "papermill": {
-     "duration": 0.018312,
-     "end_time": "2023-12-07T00:31:58.475014",
+     "duration": 0.010743,
+     "end_time": "2023-12-07T00:52:10.330997",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.456702",
+     "start_time": "2023-12-07T00:52:10.320254",
      "status": "completed"
     },
     "tags": []
@@ -115,13 +115,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "5574ba7e",
+   "id": "7b193f84",
    "metadata": {
     "papermill": {
-     "duration": 0.018516,
-     "end_time": "2023-12-07T00:31:58.511880",
+     "duration": 0.010723,
+     "end_time": "2023-12-07T00:52:10.352267",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.493364",
+     "start_time": "2023-12-07T00:52:10.341544",
      "status": "completed"
     },
     "tags": []
@@ -132,32 +132,32 @@
   },
   {
    "cell_type": "markdown",
-   "id": "83578998",
+   "id": "62c3bf31",
    "metadata": {
     "papermill": {
-     "duration": 0.019096,
-     "end_time": "2023-12-07T00:31:58.549202",
+     "duration": 0.012078,
+     "end_time": "2023-12-07T00:52:10.375074",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.530106",
+     "start_time": "2023-12-07T00:52:10.362996",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "I then proceeded to load the **reticulate** and **sentence_transformer packages**. Using the **RoBERTa model** (available on Hugging Face) as my pre-trained language model, I was able to encode any text sequence up to 512 tokens as input and then return a numerical vector with a length of 768 that represent this text sequence. Next, I merged the embeddings with the main datasets, dropping the Text and Location columns since they were no longer needed after the embeddings were obtained. I then grouped the numeric and categorical variables together. \n",
+    "I then proceeded to load the **reticulate** and **sentence_transformer packages**. Using the **RoBERTa model** (available on Hugging Face) as my pre-trained language model, I was able to encode any text sequence up to 512 tokens as input and then return a numerical vector with a length of 768 that represent the text sequence. Next, I merged the embeddings with the main datasets, dropping the Text and Location columns since they were no longer needed after the embeddings were obtained. I then grouped the numeric and categorical variables together. \n",
     "\n",
-    "Applying the **recipe package**, I was able to declare my variables of interest to be used for modeling by assigning different roles (i.e., **id**, **predictor**, and **outcome**), as well as the processes to be applied. I then mixed the ingredients in the recipe by applying the **prep function** to the training data, which was then transformed into a new data set. Through this, the output object printed the number of variables for each assigned role: 1 outcome, 770 preductors, and 1 id. Then, in order to obtain a realistic measure of model performance, I split the data into two subsamples: training (**tweet_tr**; 6,090 tweets) and test (**tweet_te**; 1,523 tweets). Due to the relatively small sample size, I used an 80/20 split. The smaller test dataset will be used as a final hold-out set and the training dataset will be used to build my models. From here, I am able to use the **caret package** to build three predictive models."
+    "Applying the **recipe package**, I was able to declare my variables of interest to be used for modeling by assigning different roles (i.e., **id**, **predictor**, and **outcome**), as well as the processes to be applied. I then mixed the ingredients in the recipe by applying the **prep function** to the training data, which was then transformed into a new data set. Through this, the output object printed the number of variables for each assigned role: one outcome, 770 preductors, and one id. Then, in order to obtain a realistic measure of model performance, I split the data into two subsamples: training (**tweet_tr**; 6,090 tweets) and test (**tweet_te**; 1,523 tweets). Due to the relatively small sample size, I used an 80/20 split. The smaller test dataset will be used as a final hold-out set and the training dataset will be used to build my models. From here, I am able to use the **caret package** to build three predictive models."
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "05a25904",
+   "id": "68ec32c7",
    "metadata": {
     "papermill": {
-     "duration": 0.019319,
-     "end_time": "2023-12-07T00:31:58.589584",
+     "duration": 0.012101,
+     "end_time": "2023-12-07T00:52:10.398212",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.570265",
+     "start_time": "2023-12-07T00:52:10.386111",
      "status": "completed"
     },
     "tags": []
@@ -185,13 +185,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "784b3eae",
+   "id": "fe5c8555",
    "metadata": {
     "papermill": {
-     "duration": 0.01897,
-     "end_time": "2023-12-07T00:31:58.626950",
+     "duration": 0.010875,
+     "end_time": "2023-12-07T00:52:10.420792",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.607980",
+     "start_time": "2023-12-07T00:52:10.409917",
      "status": "completed"
     },
     "tags": []
@@ -207,13 +207,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "9e76d0b3",
+   "id": "85f5e025",
    "metadata": {
     "papermill": {
-     "duration": 0.018425,
-     "end_time": "2023-12-07T00:31:58.663535",
+     "duration": 0.011026,
+     "end_time": "2023-12-07T00:52:10.442814",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.645110",
+     "start_time": "2023-12-07T00:52:10.431788",
      "status": "completed"
     },
     "tags": []
@@ -224,13 +224,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "c5177874",
+   "id": "ab1155bf",
    "metadata": {
     "papermill": {
-     "duration": 0.018314,
-     "end_time": "2023-12-07T00:31:58.700037",
+     "duration": 0.010908,
+     "end_time": "2023-12-07T00:52:10.464982",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.681723",
+     "start_time": "2023-12-07T00:52:10.454074",
      "status": "completed"
     },
     "tags": []
@@ -250,13 +250,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "57c82e26",
+   "id": "93312942",
    "metadata": {
     "papermill": {
-     "duration": 0.020689,
-     "end_time": "2023-12-07T00:31:58.739224",
+     "duration": 0.011004,
+     "end_time": "2023-12-07T00:52:10.487211",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.718535",
+     "start_time": "2023-12-07T00:52:10.476207",
      "status": "completed"
     },
     "tags": []
@@ -272,13 +272,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "3e29af7a",
+   "id": "f80200eb",
    "metadata": {
     "papermill": {
-     "duration": 0.018275,
-     "end_time": "2023-12-07T00:31:58.776164",
+     "duration": 0.011006,
+     "end_time": "2023-12-07T00:52:10.509017",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.757889",
+     "start_time": "2023-12-07T00:52:10.498011",
      "status": "completed"
     },
     "tags": []
@@ -289,13 +289,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "e6f3d25f",
+   "id": "942f6598",
    "metadata": {
     "papermill": {
-     "duration": 0.01839,
-     "end_time": "2023-12-07T00:31:58.812791",
+     "duration": 0.01103,
+     "end_time": "2023-12-07T00:52:10.530964",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.794401",
+     "start_time": "2023-12-07T00:52:10.519934",
      "status": "completed"
     },
     "tags": []
@@ -305,7 +305,7 @@
     "\n",
     "In order to decide which predictive model is the best fit to solve the research problem, I evaluated their performance. I calculated and reported logLoss (Log Loss), the area under the reciever operating characteristic curver (AUC), overall accuracy, true positive rate (TPR), true negative rate (TNR), and precision for all three models. The numbers are summarized in the table below. \n",
     "\n",
-    "The calculations for Models 2 (Logistic Regression with Ridge Penalty) and 3 (Logistic Regression with Lasso Penalty) do not appear to have any significant differences. For each respecitive model, AUC came out to 0.906 and 0.903, accuracy came out to 0.151 and 0.16, true positive rate came out to 0.159 and 0.165, true negative rate came out to 0.137 and 0.151, and precision came out to 0.137 and 0.151. In addition, both log loss numbers came out to 0.409. Conversely, while Model 1 (Logistic Regression with No Regularization) had higher los loss (0.671) than the other two models, it had both higher accuracy (0.186) and precision (0.148) than its counterparts. Therefore, I believe Model 1 is the best out of the three to predict which tweets indicate a real-life disaster and which tweets do not. "
+    "The calculations for Models 2 (Logistic Regression with Ridge Penalty) and 3 (Logistic Regression with Lasso Penalty) do not appear to have significant differences. For each respecitive model, AUC came out to 0.906 and 0.903, accuracy came out to 0.151 and 0.16, true positive rate came out to 0.159 and 0.165, true negative rate came out to 0.137 and 0.151, and precision came out to 0.137 and 0.151. In addition, both log loss numbers came out to 0.409. Conversely, while Model 1 (Logistic Regression with No Regularization) has higher log loss (0.671) than the other two models, it has the second highest precision (0.148; 0.003 behind Model 3) and the highest accuracy (0.186). Therefore, I believe Model 1 is the best out of the three to predict which tweets indicate a real-life disaster and which tweets do not. "
    ]
   },
   {
@@ -315,13 +315,13 @@
     }
    },
    "cell_type": "markdown",
-   "id": "cd8706ea",
+   "id": "4f9e6ee6",
    "metadata": {
     "papermill": {
-     "duration": 0.018613,
-     "end_time": "2023-12-07T00:31:58.849532",
+     "duration": 0.010648,
+     "end_time": "2023-12-07T00:52:10.552676",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.830919",
+     "start_time": "2023-12-07T00:52:10.542028",
      "status": "completed"
     },
     "tags": []
@@ -332,13 +332,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ed53ddab",
+   "id": "0fff0947",
    "metadata": {
     "papermill": {
-     "duration": 0.018309,
-     "end_time": "2023-12-07T00:31:58.886189",
+     "duration": 0.010669,
+     "end_time": "2023-12-07T00:52:10.574170",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.867880",
+     "start_time": "2023-12-07T00:52:10.563501",
      "status": "completed"
     },
     "tags": []
@@ -350,13 +350,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "125b413e",
+   "id": "b3e7a422",
    "metadata": {
     "papermill": {
-     "duration": 0.018507,
-     "end_time": "2023-12-07T00:31:58.922851",
+     "duration": 0.010721,
+     "end_time": "2023-12-07T00:52:10.595577",
      "exception": false,
-     "start_time": "2023-12-07T00:31:58.904344",
+     "start_time": "2023-12-07T00:52:10.584856",
      "status": "completed"
     },
     "tags": []
@@ -410,14 +410,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 4.766826,
-   "end_time": "2023-12-07T00:31:59.065335",
+   "duration": 3.197197,
+   "end_time": "2023-12-07T00:52:10.725048",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-12-07T00:31:54.298509",
+   "start_time": "2023-12-07T00:52:07.527851",
    "version": "2.4.0"
   }
  },
